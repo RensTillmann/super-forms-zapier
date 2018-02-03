@@ -226,7 +226,7 @@ if(!class_exists('SUPER_Zapier')) :
             $settings = $data['settings'];
             $entry_id = $data['entry_id'];
             $data = $post['data'];
-            if($settings['zapier_enable']=='true'){
+            if( !empty($settings['zapier_enable']) ) {
                 $url = $settings['zapier_webhook'];  
                 $body = json_encode(array('data'=>$data, 'settings'=>$settings));
                 $result = wp_remote_post(
