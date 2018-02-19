@@ -1,2 +1,6 @@
+Feb 18, 2018 - Version 1.0.1
+- Fix: Allow settings to be empty for new Super Forms versions (values that can be left empty must not be overwritten by default value)
+- Fix: Undefined zapier_enable
+
 Feb 19, 2017 - Version 1.0.0
 - Initial release!
