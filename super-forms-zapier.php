@@ -37,7 +37,7 @@ if(!class_exists('SUPER_Zapier')) :
          *
          *  @since      1.0.0
         */
-        public $version = '1.0.1';
+        public $version = '1.0.2';
 
 
         /**
